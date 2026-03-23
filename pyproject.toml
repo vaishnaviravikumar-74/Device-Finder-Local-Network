@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "device-finder-local-network"
+version = "1.0.0"
+description = "A Streamlit app to find all devices connected to your local network"
+authors = [{name = "Vaishnavi Ravikumar"}]
+requires-python = ">=3.8"
+dependencies = [
+    "streamlit>=1.55.0",
+    "pandas>=2.0.0",
+    "scapy>=2.5.0"
+]
+
+[project.scripts]
+app = "app:main"
