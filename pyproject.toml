@@ -7,7 +7,7 @@ name = "device-finder-local-network"
 version = "1.0.0"
 description = "A Streamlit app to find all devices connected to your local network"
 authors = [{name = "Vaishnavi Ravikumar"}]
-requires-python = ">=3.8"
+requires-python = ">=3.10"
 dependencies = [
     "streamlit>=1.55.0",
     "pandas>=2.0.0",
