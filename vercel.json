@@ -1,11 +1,14 @@
 {
   "builds": [
     {
-      "src": "requirements.txt",
-      "use": "@vercel/python"
+      "src": "Dockerfile",
+      "use": "@vercel/docker"
     }
   ],
-  "env": {
-    "PYTHONUNBUFFERED": "1"
-  }
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ]
 }
