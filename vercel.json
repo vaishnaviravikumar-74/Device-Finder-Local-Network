@@ -2,7 +2,7 @@
   "builds": [
     {
       "src": "requirements.txt",
-      "use": "@vercel/python@2.35.0"
+      "use": "@vercel/python"
     }
   ],
   "env": {
